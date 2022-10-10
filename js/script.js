@@ -5,7 +5,7 @@ const year = 22;
 const passwordGenerator = userFirstName + userLastName + userBestColor + year;
 
 const output = `
-La tua password è "${passwordGenerator}"
+  La tua password è "${passwordGenerator}"
 `;
 
 document.getElementById('password').innerHTML = output;
